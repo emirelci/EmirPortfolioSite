@@ -25,13 +25,13 @@ SECRET_KEY = 'django-insecure-ub@g-ts%9muet1ndqxlp$*#_8^&dppsf6vmxzna+of$ek9xd4_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['http://panz.pythonanywhere.com/']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+    'django.contrib.admin', 
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
